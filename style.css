@@ -1,0 +1,63 @@
+/* Make the background video fill the screen */
+#bgVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  /* Page styling */
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Content container */
+  .container {
+    padding: 2rem;
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Profile styling */
+  .profile {
+    margin-bottom: 2rem;
+  }
+  
+  .profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+  
+  /* Link buttons */
+  .links a {
+    display: block;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .links a:first-child {
+    background-color: #1da1f2;
+  }
+  
+  .links a:last-child {
+    background-color: #444;
+  }
+  
+  .links a:hover {
+    opacity: 0.8;
+  }
+  
